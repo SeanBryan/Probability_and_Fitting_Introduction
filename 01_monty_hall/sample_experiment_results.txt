@@ -1,0 +1,4 @@
+Monty Hall Problem Simulation
+ndoors = 3
+Number of Wins while Switching: 6650 / 10000 or 66.5%
+Number of Wins while NOT Switching: 3365 / 10000 or 33.65%

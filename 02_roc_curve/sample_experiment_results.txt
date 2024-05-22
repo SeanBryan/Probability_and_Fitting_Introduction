@@ -1,0 +1,36 @@
+=========================================
+Performing demonstration experiments:
+Experiment #1
+target is present
+threshold = 0.5
+value observed at detector = 1.6095420195550054
+detector triggered
+
+
+Experiment #2
+target is present
+threshold = 0.5
+value observed at detector = 0.9532884871448584
+detector triggered
+
+
+Experiment #3
+target is present
+threshold = 0.5
+value observed at detector = 0.7787065992342238
+detector triggered
+
+
+Experiment #4
+target is present
+threshold = 0.5
+value observed at detector = -0.69585608223359
+detector did not trigger
+
+
+Experiment #5
+target is present
+threshold = 0.5
+value observed at detector = 3.4199669525102956
+detector triggered
+=========================================
