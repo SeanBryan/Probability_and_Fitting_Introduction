@@ -77,7 +77,7 @@ pl.title('Simulated Non-Linear Cooling Data with Noise')
 
 
 ###############################################################################################
-# generate mock data for 07 - generalized linear model
+# generate mock data for 06 - generalized linear model
 
 # choose ground truth values
 
