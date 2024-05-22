@@ -18,4 +18,4 @@ Plotting the two curves from the previous plot against each other yields the ROC
 
 2) Re-run the code with a low signal to noise ratio, say 0.1 (i.e. -10 dB). Does the resulting ROC curve make sense? Is it close to the no-information black line?
 
-3) Run the code yet again with a high signal to noise ratio, say 10. Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases?
+3) Run the code yet again with a high signal to noise ratio, say 10 (i.e. 10 dB). Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases?
