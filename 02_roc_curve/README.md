@@ -11,3 +11,11 @@ As we adjust the threshold, we explore this tradeoff between avoiding false posi
 Plotting the two curves from the previous plot against each other yields the ROC curve shown below. The blue curve below is the traces of the above plot plotted against each other. For comparison, the black line is the performance of a theoretical detector that is not viewing the scene at all, and therefore has no information. This detector would trigger at random, regardless of whether the target is present or not, which means its true positive and false positive rates are identical (yielding the diagonal black line when plotted against each other).
 
 ![ROC Curve](roc_curve.png?raw=true)
+
+# Questions
+
+1) Read through the code carefully. Does the operation of the detector make sense? Does the procedure for measuring the true positive and false positive rate make sense? Do you agree that setting the threshold at 0.5 is the "best" compromise in this case? Why or why not?
+
+2) Re-run the code with a low signal to noise ratio, say 0.1 (i.e. -10 dB). Does the resulting ROC curve make sense? Is it close to the no-information black line?
+
+3) Run the code yet again with a high signal to noise ratio, say 10. Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases?
