@@ -16,6 +16,10 @@ Plotting the two curves from the previous plot against each other yields the ROC
 
 1) Read through the code carefully. Does the operation of the detector make sense? Does the procedure for measuring the true positive and false positive rate make sense? Do you agree that setting the threshold at 0.5 is the "best" compromise in this case? Why or why not?
 
-2) Re-run the code with a low signal to noise ratio, say 0.1 (i.e. -10 dB). Does the resulting ROC curve make sense? Is it close to the no-information black line?
+2) Are you happy with the performance of this system when the signal to noise radio = 1? Why or why not?
 
-3) Run the code yet again with a high signal to noise ratio, say 10 (i.e. 10 dB). Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases? What threshold would you choose as the "best" compromise in this case? Why did you choose that value?
+3) Re-run the code with a low signal to noise ratio, say 0.1 (i.e. -10 dB). Does the resulting ROC curve make sense? Is it close to the no-information black line?
+
+4) Run the code yet again with a high signal to noise ratio, say 10 (i.e. 10 dB). Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases? What threshold would you choose as the "best" compromise in this case? Why did you choose that value?
+
+5) Are you happy with the performance of this system when the signal to noise radio = 10? Why or why not?
