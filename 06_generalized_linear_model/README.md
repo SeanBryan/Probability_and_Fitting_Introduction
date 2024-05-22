@@ -24,4 +24,4 @@ To build this model, the code loads in the parameters of each home. In this case
 
 2) Does the simple y = mx + b model make sense?
 
-3) Looking at the above plot, by eye find the home with approximately 1800 square feet that costs approximately $520,000. Using the simple y = mx + b model, is that home listed at a price above, at, or below the price you would expect it to sell for? Using the full model, is that home listed at a price, above, at, or below the price you would expect it to sell for? Did you get the same answer in both cases? Which model would you rather use to buy or sell this house? Why?
+3) Looking at the above plot, by eye find the home with approximately 1800 square feet that costs approximately $520,000. Using the simple y = mx + b model, is that home listed at a price above, at, or below the price you would expect it to sell for? Using the full model, is that home listed at a price above, at, or below the price you would expect it to sell for? Did you get the same answer in both cases? Which model would you rather use to buy or sell this house? Why?
