@@ -1,3 +1,5 @@
+![Digital Computer Techniques](digital_computer_techniques.png?raw=true)
+
 # Probability and Fitting Introduction
 These codes introduce key concepts in Monte Carlo simulation, generating simulated data, and fitting models to data.
 
