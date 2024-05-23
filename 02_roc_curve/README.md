@@ -27,3 +27,5 @@ Plotting the two curves from the previous plot against each other yields the ROC
 4) Run the code yet again with a high signal to noise ratio, say 10 (i.e. 10 dB). Does the resulting ROC curve make sense? How does it differ from the nominal and low-SNR cases? What threshold would you choose as the "best" compromise in this case? Why did you choose that value?
 
 5) Are you happy with the performance of this system when the signal to noise ratio = 10? Why or why not?
+
+6) When building a detector system to hunt for an event that is common, is it more important to prioritize achieving a high percentage of true positives, or is it more important to prioritize avoiding false positives? Why? Which is more important when building a detector system to hunt for rare events? Why?
