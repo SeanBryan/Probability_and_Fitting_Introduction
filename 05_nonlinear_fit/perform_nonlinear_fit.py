@@ -61,7 +61,7 @@ ax1.plot(t,model_curvefit(t,Ti,T0+error_on_T0,tau),':',label='T0 = Nominal + Err
 ax1.plot(t,model_curvefit(t,Ti,T0,tau+error_on_tau),':',label='tau = Nominal + Error')
 ax1.legend()
 ax1.grid('on')
-#ax1.set_xlabel('x value [arb]')
+#ax1.set_xlabel('Time [min]')
 ax1.set_ylabel('Temperature [K]')
 ax2 = f.add_subplot(gs[3,:])
 ax2.plot(t,T_predicted - T,'*')
