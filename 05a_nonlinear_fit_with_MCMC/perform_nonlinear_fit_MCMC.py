@@ -36,9 +36,7 @@ nwalkers, ndim = pos.shape
 # set number of steps to take
 Nsamples = 5000
 
-sampler = emcee.EnsembleSampler(
-    nwalkers, ndim, log_likelihood, args=(t, T, errT)
-)
+sampler = emcee.EnsembleSampler(nwalkers, ndim, log_likelihood, args=(t, T, errT))
 sampler.run_mcmc(pos, Nsamples, progress=True)
 
 flat_samples = sampler.get_chain(discard=int(np.round(0.1*Nsamples)), thin=15, flat=True)
@@ -85,4 +83,5 @@ import corner
 
 
 fig = corner.corner(flat_samples,labels=['Ti','T0','tau'],truths=[30,10,25])
+
 
