@@ -12,7 +12,7 @@ T = np.array(df['T'])
 # make a companion array that is the error on each temperature datapoint
 errT = np.ones_like(t)
 
-# define function for the model in the form that curve_fit wants
+# define function for the model
 def model_calc(t,Ti,T0,tau):
     # calculate model
     return (Ti - T0)*np.exp(-t/tau) + T0
@@ -82,5 +82,6 @@ pl.tight_layout()
 
 # make corner plot
 import corner
+
 
 fig = corner.corner(flat_samples,labels=['Ti','T0','tau'],truths=[30,10,25])
