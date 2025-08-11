@@ -30,7 +30,7 @@ tau_guess = np.max(t) - np.min(t) # use the total duration as a guess for the ti
 
 # use emcee to fit the data
 # initial guess of parameters
-pos = np.array([Ti_guess,T0_guess,tau_guess]) + + 1e-4 * np.random.randn(32, 3)
+pos = np.array([Ti_guess,T0_guess,tau_guess]) + 1e-4 * np.random.randn(32, 3)
 nwalkers, ndim = pos.shape
 
 # set number of steps to take
@@ -85,3 +85,4 @@ import corner
 
 
 fig = corner.corner(flat_samples,labels=['Ti','T0','tau'],truths=[30,10,25])
+
